@@ -12,6 +12,8 @@ Rajzoljuk fel az áram és a feszültség vektoriális képet,az áram a cos fü
  $R = 100 Ω$   
  $f = 200 Hz$
 
+----
+
 ### Számítás:    
 >$U = R * I = 100Ω * 0.5A = 50V$$  
  $Up = U * \sqrt{2} = 50 * 1.4142 = 70.7V$$   
