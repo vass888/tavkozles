@@ -6,3 +6,6 @@ Egy áramkörben I = 0,5 A erősségű és 200 Hz frekvenciájú áram folyik. S
 Rajzoljuk fel az áram és a feszültség vektoriális képet,az áram a cos függvény szerint változik!
 
 ----
+
+# Adatok:
+$ I = 0.5 A $
