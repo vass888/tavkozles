@@ -7,5 +7,5 @@ Rajzoljuk fel az áram és a feszültség vektoriális képet,az áram a cos fü
 
 ----
 
-# Adatok:
+## Adatok:
  I = 0.5 A 
