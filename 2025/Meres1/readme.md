@@ -8,7 +8,7 @@ Rajzoljuk fel az áram és a feszültség vektoriális képet,az áram a cos fü
 ----
 
 ### Adatok:
-$I = 0.5 A$  
-$R = 100 Ω$   
-$f = 200 Hz$  
+>$I = 0.5 A$  
+ $R = 100 Ω$   
+ $f = 200 Hz$  
 
