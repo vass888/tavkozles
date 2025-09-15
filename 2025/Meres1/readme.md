@@ -19,6 +19,7 @@ Rajzoljuk fel az áram és a feszültség vektoriális képet,az áram a cos fü
  $Up = U * \sqrt{2} = 50 * 1.4142 = 70.7V$$   
 
 ---
+### *Kapcsolás:*    
+<img width="1004" height="612" alt="circuit-20250915-0844" src="https://github.com/user-attachments/assets/cea13a71-a142-4219-a931-7db4b5dd49ed" />
 
-### *Kapcsolás:*  
-https://tinyurl.com/23o4foyg  
+
