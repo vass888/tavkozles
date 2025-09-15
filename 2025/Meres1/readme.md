@@ -1,1 +1,8 @@
-https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWKsDMAOFCVgQdgExq4Bs2kuICkll1CApgLRhgBQAbiPpGuIVzxDoALFHADquGBWqzoCVgCcQxYdTD9V1EWLBxWAdwG8NvLX16RDxoWlHmdVtSi75RYYfbdDil8AH00f0h-DXwATjB-KWhicPDcEjiEDwQEcODoKTiEpPCU4TSM5n98UP8UVgB7cVUxNXiQNDk-fHFKoA
+# Valtakozó áram: 
+
+Feladat: 
+
+Egy áramkörben I = 0,5 A erősségű és 200 Hz frekvenciájú áram folyik. Számítsuk ki az áramkör R = 100 Ω értékű ellenállásán eső feszültség csúcsértékét! 
+Rajzoljuk fel az áram és a feszültség vektoriális képet,az áram a cos függvény szerint változik!
+
+----
