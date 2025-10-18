@@ -11,21 +11,21 @@
 ---          
 
 ## Mérési eredmények:       
-|Antenna típusa	  |Vételi pont 1  Jelszint (dBm)|	Vételi pont 2  Jelszint (dBm) |	Vételi pont 3 - Jelszint (dBm)|
+|Antenna típusa	  |1 Vételi pont  Jelszint (dBm)|2	Vételi pont   Jelszint (dBm) |3 Vételi pont - Jelszint (dBm)|
 |-----------------|-----------------------------|--------------------------------|------------------------------|
-|SMART HD 550	    |34,8dBuV	                    |  40,3dBuV	                     | 58,5dBuV                     |
-|ISKRA P20 LOGPER	|38,9dBuV	                    |  48,9dBuV	                     | 60,2dBuV                     |
-|ISKRA P-2845f	  |43,2dBuV	                    |  50,8dBuV                      | 66,4dBuV                     |  
+|SMART HD 550	    |44,8dBuV	                    |  59,6dBuV	                     | 73dBuV                     |
+|ISKRA P20 LOGPER	|45,7dBuV	                    |  61,8dBuV	                     | 76,2dBuV                     |
+|ISKRA P-2845f	  |60,2dBuV	                    |  65,5dBuV                      | 80,4dBuV                     |  
 
 ## Észrevételek:      
-- Vételi pont 1: Beltéri környezet, gyengébb jel, érezhető interferencia. Az ISKRA P-2845f antenna adta a legjobb jelszintet.      
+- Vételi pont 1: Beltéri környezet, gyengébb jel. Az ISKRA P-2845f antenna adta a legnagyobb jelszintet.      
 - Vételi pont 2: Kültéri környezet, jelentősen az épület takarásában történt. Közepes jelminőség. Az ISKRA P-20 antenna mutatott közepes teljesítményt, de az ISKRA P-2845f antenna itt is jobb volt.           
-- Vételi pont 3: Kültéri környezet, teljesen nyílt tér, Legerősebb jelminőség az összes anntenán. Az ISKRA P-2845f antenna továbbra is erős jelnyereséget mutatott, míg a SMART HD 550 antenna itt gyengébb teljesítményt adott, de nem jelentősen. Itt az összes antennának jó volt a jel erőssége.        
+- Vételi pont 3: Kültéri környezet, nyitottabb kevésbé eltakart. Legerősebb jelminőség az összes anntenán. Az ISKRA P-2845f antenna még mindig a legerősebb. Itt az összes antennának jó volt a jel erőssége.        
 
 ## Következtetések:
 - Az ISKRA P-2845f antenna minden vételi ponton a legjobb jelszintet biztosította.       
-- Az ISKRA P-20 antenna megfelelő választás lehet, ha kisebb méretű, könnyen telepíthető antennára van szükség, de valamivel alacsonyabb jelminőséget nyújtott.     
-- A SMART HD 550 antenna a gyengébb vételi , különösen zárt térben.           
+- Az ISKRA P-20 antenna kisebb jelerősséget adott.     
+- A SMART HD 550 antenna a leggyengébb, különösen zárt térben.           
 
 
 
