@@ -50,15 +50,6 @@ $$A_{elm} = -\frac{99,7 \text{ k}\Omega}{11,7 \text{ k}\Omega} \approx \mathbf{-
 
 A méréshez az NI myDAQ *Function Generator* (FGEN) és *Oscilloscope* (SCOPE) műszereit használtam.
 
-**Mért feszültségértékek:**
-
-| Sorszám | $U_{be}$ (V) <br> *(Bemeneti jel)* | $U_{ki}$ (V) <br> *(Mért kimenet)* | $A_{mért}$ <br> $(U_{ki} / U_{be})$ | Megjegyzés |
-| :---: | :---: | :---: | :---: | :---: |
-| 1. | 0,2 V | | | Lineáris tartomány |
-| 2. | 0,5 V | | | Lineáris tartomány |
-| 3. | 1,0 V | | | Lineáris tartomány |
-| 4. | 1,5 V | | | (Várható $U_{ki} \approx 12,8V$) |
-| 5. | 2,0 V | | | Telítés (Vágás) lehetséges |
 
 ---
 
