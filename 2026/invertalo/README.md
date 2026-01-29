@@ -8,55 +8,69 @@
 
 ## 1. A mérés adatai
 
-| Adat megnevezése | Részletek |
-| :--- | :--- |
-| **Mérést végezte:** | **Vass Viktor** |
-| **Mérés tárgya:** | [Ide írd a mérés címét, pl. Ellenállás mérése / Hálózati sávszélesség teszt] |
-| **Osztály / Csoport:** | [Pl. 10.B] |
-| **Oktató neve:** | [Tanár neve] |
-| **Környezeti feltételek:** | [Pl. Hőmérséklet: 22°C, Páratartalom: 45%] |
+* **Mérést végezte:** Vass Viktor
+* **Mérés tárgya:** Invertáló erősítő vizsgálata (TL071)
+* **Alkalmazott mérőrendszer:** NI myDAQ (National Instruments)
 
 ---
 
 ## 2. A mérés célja
-Ide írd le röviden, mit szeretnél megállapítani vagy bizonyítani a méréssel.
-> *Példa: A cél annak meghatározása, hogy a terhelés növekedésével hogyan változik a hálózati késleltetés.*
+TL071 típusú műveleti erősítővel felépített invertáló alapkapcsolás vizsgálata. A feszültségerősítés ($A_u$) meghatározása méréssel, és az eredmények összevetése az ellenállások értékeiből számított elméleti erősítéssel.
 
 ---
 
-## 3. Felhasznált eszközök és műszerek
+## 3. Felhasznált alkatrészek
 
-| Megnevezés | Típus / Sorozatszám | Pontosság / Méréshatár |
-| :--- | :--- | :--- |
-| [Eszköz 1] | [Pl. Fluke Multiméter] | [Pl. ±0.5%] |
-| [Eszköz 2] | [Pl. Cisco Router 2960] | - |
-| [Szoftver] | [Pl. Wireshark v4.0] | - |
+| Pozíciószám | Alkatrész | Érték (Mért) | Funkció |
+| :--- | :--- | :--- | :--- |
+| **U1** | TL071 | - | Műveleti erősítő (JFET input) |
+| **R1** | Ellenállás | **11,7 kΩ** | Bemeneti ellenállás |
+| **R2** | Ellenállás | **99,7 kΩ** | Visszacsatoló ellenállás |
+| **R3** | Ellenállás | **11,95 kΩ** | Kompenzáló ellenállás (Nem invertáló ág) |
 
 ---
 
-## 4. Kapcsolási rajz / Mérési elrendezés
-Ide illesztheted be a mérés vázlatát vagy a hálózati topológiát.
-*(Kép helye vagy szöveges leírás a felépítésről)*
+## 4. Elméleti számítások
+
+Az invertáló erősítő feszültségerősítése ($A_{elm}$) a visszacsatoló és a bemeneti ellenállás hányadosaként számítható:
+
+$$A_{elm} = -\frac{R_2}{R_1}$$
+
+Behelyettesítve a rendelkezésre álló ellenállások értékeit:
+
+$$A_{elm} = -\frac{99,7 \text{ k}\Omega}{11,7 \text{ k}\Omega} \approx \mathbf{-8,52}$$
+
+**Várt viselkedés:**
+1.  A kimeneti jel fázisa 180°-kal elfordul a bemeneti jelhez képest (invertálás).
+2.  A kimeneti jel amplitúdója kb. 8,5-szöröse a bemenetinek, amíg az el nem éri a tápfeszültség korlátait (telítés).
 
 ---
 
 ## 5. Mérési eredmények
 
-Az alábbi táblázatban rögzítettem a mért értékeket:
+A méréshez az NI myDAQ *Function Generator* (FGEN) és *Oscilloscope* (SCOPE) műszereit használtam.
 
-| Sorszám | Bemeneti paraméter ($X$) | Mért érték 1 ($Y_1$) | Mért érték 2 ($Y_2$) | Átlag |
+**Mért feszültségértékek:**
+
+| Sorszám | $U_{be}$ (V) <br> *(Bemeneti jel)* | $U_{ki}$ (V) <br> *(Mért kimenet)* | $A_{mért}$ <br> $(U_{ki} / U_{be})$ | Megjegyzés |
 | :---: | :---: | :---: | :---: | :---: |
-| 1. | ... | ... | ... | ... |
-| 2. | ... | ... | ... | ... |
-| 3. | ... | ... | ... | ... |
-| 4. | ... | ... | ... | ... |
-| 5. | ... | ... | ... | ... |
+| 1. | 0,2 V | | | Lineáris tartomány |
+| 2. | 0,5 V | | | Lineáris tartomány |
+| 3. | 1,0 V | | | Lineáris tartomány |
+| 4. | 1,5 V | | | (Várható $U_{ki} \approx 12,8V$) |
+| 5. | 2,0 V | | | Telítés (Vágás) lehetséges |
 
 ---
 
-## 6. Számítások és elemzés
-A mért adatokból végzett számítások levezetése.
+## 6. Kiértékelés
 
-$$R = \frac{U}{I}$$
+A mérés során a TL071-es IC-vel felépített kapcsolás invertáló erősítőként viselkedett.
+* **Számított erősítés:** -8,52
+* **Mért átlagos erősítés:** *[Ide írd a táblázat alapján kapott átlagot]*
 
-*Ide írd a szám
+Az $R_3$ ellenállás (11,95 kΩ) a nem invertáló bemeneten a bemeneti offszet áramok hatásának csökkentését szolgálta. Értéke közelíti az $R_1$ és $R_2$ párhuzamos eredőjét ($R_1 \times R_2 \approx 10,47 k\Omega$), így a kompenzálás megfelelő.
+
+**Aláírás:**
+
+__________________________
+**Vass Viktor**
