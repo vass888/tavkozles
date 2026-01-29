@@ -1,7 +1,7 @@
 # MÉRÉSI JEGYZŐKÖNYV
 
-**Intézmény:** Miskolci SZC Kandó Kálmán Informatikai Technikum 
-**Helyszín:** Miskolc
+**Intézmény:** Miskolci SZC Kandó Kálmán Informatikai Technikum   
+**Helyszín:** Miskolc   
 **Dátum:** 2026. 01. 29.
 
 ---
