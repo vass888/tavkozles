@@ -65,8 +65,8 @@ A méréshez az NI myDAQ *Function Generator* (FGEN) és *Oscilloscope* (SCOPE) 
 ## 6. Kiértékelés
 
 A mérés során a TL071-es IC-vel felépített kapcsolás invertáló erősítőként viselkedett.
-* **Számított erősítés:** -8,52
-* **Mért átlagos erősítés:** *[Ide írd a táblázat alapján kapott átlagot]*
+* **Számított erősítés:*8,47* 
+* **Mért átlagos erősítés:** *8,461*
 
 Az $R_3$ ellenállás (11,95 kΩ) a nem invertáló bemeneten a bemeneti offszet áramok hatásának csökkentését szolgálta. Értéke közelíti az $R_1$ és $R_2$ párhuzamos eredőjét ($R_1 \times R_2 \approx 10,47 k\Omega$), így a kompenzálás megfelelő.
 
