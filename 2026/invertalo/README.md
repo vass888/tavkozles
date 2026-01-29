@@ -38,7 +38,7 @@ $$A_{elm} = -\frac{R_2}{R_1}$$
 
 Behelyettesítve a rendelkezésre álló ellenállások értékeit:
 
-$$A_{elm} = -\frac{99,7 \text{ k}\Omega}{11,7 \text{ k}\Omega} \approx \mathbf{-8,52}$$
+$$A_{elm} = -\frac{99,7 \text{ k}\Omega}{11,7 \text{ k}\Omega} \approx \mathbf{8,47}$$
 
 **Várt viselkedés:**
 1.  A kimeneti jel fázisa 180°-kal elfordul a bemeneti jelhez képest (invertálás).
