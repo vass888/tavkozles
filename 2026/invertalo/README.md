@@ -48,7 +48,8 @@ $$A_{elm} = -\frac{99,7 \text{ k}\Omega}{11,7 \text{ k}\Omega} \approx \mathbf{-
 
 ## 5. Mérési eredmények
 
-A méréshez az NI myDAQ *Function Generator* (FGEN) és *Oscilloscope* (SCOPE) műszereit használtam.
+A méréshez az NI myDAQ *Function Generator* (FGEN) és *Oscilloscope* (SCOPE) műszereit használtam.   
+<img width="1078" height="743" alt="image" src="https://github.com/user-attachments/assets/83b82b6a-9ec6-4f9e-a161-de8ab601cf8b" />
 
 
 ---
