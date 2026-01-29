@@ -26,7 +26,8 @@ TL071 típusú műveleti erősítővel felépített invertáló alapkapcsolás v
 | **U1** | TL071 | - | Műveleti erősítő (JFET input) |
 | **R1** | Ellenállás | **11,7 kΩ** | Bemeneti ellenállás |
 | **R2** | Ellenállás | **99,7 kΩ** | Visszacsatoló ellenállás |
-| **R3** | Ellenállás | **11,95 kΩ** | Kompenzáló ellenállás (Nem invertáló ág) |
+| **R3** | Ellenállás | **11,95 kΩ** | Kompenzáló ellenállás (Nem invertáló ág) |   
+<img width="975" height="525" alt="image (2)" src="https://github.com/user-attachments/assets/16f06773-dc28-4f53-acb1-e746cee64d98" />
 
 ---
 
