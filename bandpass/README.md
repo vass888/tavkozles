@@ -32,9 +32,22 @@ A kapcsolás egy műveleti erősítős, többszörös visszacsatolású (vagy ah
 | **C1** | Kondenzátor | **470 nF** | Csatoló/Szűrő kapacitás |
 | **C2** | Kondenzátor | **470 nF** | Csatoló/Szűrő kapacitás |
 
-<img width="720" height="516" alt="image" src="https://github.com/user-attachments/assets/ec496cc4-c921-4841-9855-5d04b10f6f24" />   
-A végleges kapcsolás az eredetitől eltérő, kisebb átalakítást kellett elvégezni 
+<img width="720" height="516" alt="image" src="https://github.com/user-attachments/assets/ec496cc4-c921-4841-9855-5d04b10f6f24" />        
+## Az áramkör kivitelezése és a kapcsolási rajz módosításai
 
+A mérési feladat elvégzése során az eredeti elvi kapcsolási rajzhoz képest az alábbi módosításokat eszközöltük a fizikai megvalósításkor:
+
+### Földelési topológia módosítása
+Az LM324 műveleti erősítő bekötésénél a földelési pont kialakítását megváltoztattuk.
+* **Eredeti állapot:** A kapcsolási rajz szerint az IC 11-es lába (negatív tápfeszültség/VEE) és a 3-as láb (nem invertáló bemenet) közösítve csatlakozott a földeléshez.
+* **Módosítás:** A 11-es láb és a földelés közötti eredeti összeköttetést ebben a formában megszüntettük. A földelési pontot közvetlenül az R2 ellenállás és az IC 3-as lába közötti szakaszra helyeztük át.
+
+**A módosítás indoklása:**
+A változtatásra a stabilabb működés és a zajcsökkentés érdekében volt szükség. A nem invertáló bemenet (3-as láb) közvetlen, önálló földelése biztosítja, hogy a bemeneti referenciafeszültség "tisztább" legyen, és ne kerüljön rá a tápfeszültség visszatérő ágán (11-es láb) esetlegesen megjelenő zavarjel vagy feszültségesés. Ez a huzalozási elrendezés javítja a jel-zaj viszonyt.
+
+### Alkatrészek értékei
+A megépített áramkörben felhasznált passzív komponensek (ellenállások és kondenzátorok) értékei kismértékben eltérnek az elvi kapcsolási rajzon feltüntetett névleges értékektől.
+* **Ok:** A laboratóriumi készletben nem álltak rendelkezésre pontosan az eredeti rajzon szereplő értékű alkatrészek, így azokat a legközelebbi szabványos értékű elemekkel helyettesítettük. A működést ez érdemben nem befolyásolja, de a mérési eredmények kiértékelésénél a ténylegesen beépített értékeket vettük figyelembe.
 ---
 
 ## 4. Elméleti számítások
