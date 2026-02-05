@@ -33,6 +33,7 @@ A kapcsolás egy műveleti erősítős, többszörös visszacsatolású (vagy ah
 | **C2** | Kondenzátor | **470 nF** | Csatoló/Szűrő kapacitás |
 
 <img width="720" height="516" alt="image" src="https://github.com/user-attachments/assets/ec496cc4-c921-4841-9855-5d04b10f6f24" />   
+A végleges kapcsolás az eredetitől eltérő, kisebb átalakítást kellett elvégezni 
 
 ---
 
