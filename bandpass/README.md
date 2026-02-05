@@ -49,6 +49,10 @@ A változtatásra a stabilabb működés és a zajcsökkentés érdekében volt 
 ### Alkatrészek értékei
 A megépített áramkörben felhasznált passzív komponensek (ellenállások és kondenzátorok) értékei kismértékben eltérnek az elvi kapcsolási rajzon feltüntetett névleges értékektől.
 * **Ok:** A laboratóriumi készletben nem álltak rendelkezésre pontosan az eredeti rajzon szereplő értékű alkatrészek, így azokat a legközelebbi szabványos értékű elemekkel helyettesítettük. A működést ez érdemben nem befolyásolja, de a mérési eredmények kiértékelésénél a ténylegesen beépített értékeket vettük figyelembe.
+
+### A módosított kapcsolás:      
+<img width="1097" height="699" alt="image" src="https://github.com/user-attachments/assets/f05dcf01-35aa-4bf9-9ee4-b03c838b9d4c" />
+
 ---
 
 ## 4. Elméleti számítások
