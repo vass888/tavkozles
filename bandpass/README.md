@@ -65,7 +65,6 @@ $$f_0 = \frac{1}{2\pi C} \sqrt{\frac{R_1 + R_2}{R_1 R_2 R_3}}$$
 
 **Várt viselkedés:**
 1. A kimeneti jel amplitúdója a rezonanciafrekvencián ($f_0$) éri el a maximumot.
-2. A fázisgörbe a rezonanciafrekvenciánál jellemzően előjelet vált vagy 0°/180°-on halad át (az áramkör invertáló jellegétől függően).
 
 ---
 
@@ -76,7 +75,7 @@ A méréshez az NI myDAQ *Bode Analyzer* műszerét használtam 10 Hz és 20 kHz
 **Mért értékek a kurzor alapján:**
 * **Rezonanciafrekvencia ($f_0$):** 309,68 Hz
 * **Erősítés a csúcson ($Gain$):** 29,17 dB
-* **Fázis ($Phase$):** 177,14° (Invertáló jellegre utal a rezonancia közelében)
+* **Fázis ($Phase$):** 0° (Invertáló jellegre utal a rezonancia közelében)
 
 <img width="924" height="740" alt="image" src="https://github.com/user-attachments/assets/a1582458-42de-4354-b486-a8ed26c3d856" />   
 
